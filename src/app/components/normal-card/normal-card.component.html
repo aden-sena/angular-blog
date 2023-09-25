@@ -1,13 +1,13 @@
 <div class="normal-card">
     <img 
-        src="https://cdn.vectorstock.com/i/preview-1x/65/30/default-image-icon-missing-picture-page-vector-40546530.jpg" 
-        alt="sem imagem"
+        src="{{ photoCover }}" 
+        alt="Imagem da postagem"
     >
 
-    <h3>Aqui você tem que colocar um titulo para o post.</h3>
+    <h3>{{ cardTitle }}</h3>
 
     <p class="autor_normal-card">
-        By Anonymous 
-        <span class="date_normal-card">22/09/2023</span>
+        By {{ autor }} 
+        <span class="date_normal-card">{{ data }}</span>
     </p>
 </div>

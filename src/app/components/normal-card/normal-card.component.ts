@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-normal-card',
@@ -8,6 +8,14 @@ import { Component, OnInit } from '@angular/core';
 export class NormalCardComponent implements OnInit {
 
   constructor() { }
+  @Input()
+  photoCover:string = "";
+  @Input()
+  cardTitle:string = "";
+  @Input()
+  autor:string = "";
+  @Input()
+  data:string = "";
 
   ngOnInit(): void {
   }
