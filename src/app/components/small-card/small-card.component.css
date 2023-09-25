@@ -16,3 +16,12 @@
     padding-bottom: 1rem;
     font-size: 13pt;
 }
+
+.small-card > h2 > a {
+    text-decoration: none;
+    color: black;
+}
+
+.small-card > h2 > a:hover {
+    text-decoration: underline;
+}

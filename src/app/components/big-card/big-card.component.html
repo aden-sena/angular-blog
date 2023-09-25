@@ -4,7 +4,7 @@
         alt="Foto da noticia"
     >
 
-    <h2 class="article-title">{{ cardTitle }}</h2>
+    <h2 class="article-title"><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h2>
 
     <p class="autor">
         By {{ autor }} 

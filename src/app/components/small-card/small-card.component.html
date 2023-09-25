@@ -1,8 +1,8 @@
 <div class="small-card">
-    <img 
+    <img
         src="{{ photoCover }}" 
         alt="Imagem da postagem"
     >
 
-    <h2>{{ cardTitle }}</h2>
+    <h2><a [routerLink]="['content', Id]">{{ cardTitle }}</a></h2>
 </div>
