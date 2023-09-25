@@ -1,0 +1,13 @@
+.container__banner-subtitle {
+    text-align: center;
+    background-color: #F3F7F5;
+    padding: 3rem 0 1.5rem 0;
+    border-radius: 20px;
+    margin: 1rem 10.5rem 0 10.5rem;
+}
+.container__banner-subtitle > h2 {
+    font-size: 20pt;
+}
+.container__banner-subtitle > p {
+    padding: 1rem 0 1.5rem 0;
+}

@@ -1,0 +1,18 @@
+.content-main {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.article-right {
+    margin-left: 1.5rem;
+}
+
+.posts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0px;
+    place-items: center;
+    margin: 0 9.5rem 0 9.5rem;
+}

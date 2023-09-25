@@ -1,0 +1,18 @@
+.small-card {
+    width: 290px;
+    height: 270px;
+    box-shadow: 1px 1px 10px lightgray;
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+}
+.small-card > img {
+    width: 260px;
+    height: 160px;
+    border-radius: 20px;
+    margin: .95rem 0 1rem .95rem;
+}
+.small-card > h2 {
+    margin: 0 .95rem 0 .95rem;
+    padding-bottom: 1rem;
+    font-size: 13pt;
+}

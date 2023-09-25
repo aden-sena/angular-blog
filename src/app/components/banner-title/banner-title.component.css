@@ -1,0 +1,33 @@
+.container__banner-title {
+    text-align: center;
+    background-color: #F3F7F5;
+    padding: 3rem 0 3rem 0;
+    border-radius: 20px;
+    margin: 1rem 2rem 0 2rem;
+}
+.container__banner-title > img {
+    height: 55px;
+}
+.container__banner-title > h1 {
+    font-size: 35pt;
+}
+.container__banner-title > p {
+    padding: 1rem 0 1.5rem 0;
+}
+
+.start_button {
+    margin-right: 1rem;
+    color: #fff;
+    background-color: black;
+}
+.start_button, .price_button {
+    border-radius: 20px;
+    padding: 10px 25px 10px 25px;
+    font-weight: 500;
+    border: 2px solid black;
+}
+
+button > a {
+    text-decoration: none;
+    color: #fff;
+}
