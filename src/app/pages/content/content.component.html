@@ -1,14 +1,25 @@
 <div class="container_content">
-    <a [routerLink]="['']"> << Voltar</a>
-    <div class="content-cover">
-        <img src="{{ photoCover }}" alt="">
-    </div>
-
-    <div class="content-title">
-        <h1>{{ contentTitle }}</h1>
-    </div>
-
-    <div class="content-autor">
-        <p>By {{ autor }} <span>{{ data }}</span></p>
+    <div class="container_content-article">
+        <a [routerLink]="['']"> << Voltar</a>
+    
+        <div class="content-cover">
+            <img src="{{ photoCover }}" alt="">
+        </div>
+    
+        <div class="content-title">
+            <h1>{{ contentTitle }}</h1>
+        </div>
+    
+        <div class="content-autor">
+            <p>By {{ autor }}</p>
+        </div>
+    
+        <div class="content-data">
+            <p>{{ data }}</p>
+        </div>
+    
+        <article class="content-article">
+            <p>{{ article }}</p>
+        </article>
     </div>
 </div>

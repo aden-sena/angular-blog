@@ -11,6 +11,8 @@ import { NormalCardComponent } from './components/normal-card/normal-card.compon
 import { SmallCardComponent } from './components/small-card/small-card.component';
 import { HomeComponent } from './pages/home/home.component';
 import { ContentComponent } from './pages/content/content.component';
+import { SubscribeComponent } from './pages/subscribe/subscribe.component';
+import { SubscribeCardComponent } from './components/subscribe-card/subscribe-card.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { ContentComponent } from './pages/content/content.component';
     NormalCardComponent,
     SmallCardComponent,
     HomeComponent,
-    ContentComponent
+    ContentComponent,
+    SubscribeComponent,
+    SubscribeCardComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,41 @@
+.card_subscribe {
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px lightgray;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subscribe-image > img {
+    width: 50px;
+    margin-top: 1rem;
+}
+
+.subscribe-title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.subscribe-description {
+    margin-bottom: 1rem;
+    width: 250px;
+}
+
+.subscribe-value {
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.subscribe-button {
+    margin-bottom: 1rem;
+}
+.subscribe-button > button {
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: 500;
+    padding: .5rem;
+}

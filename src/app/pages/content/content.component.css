@@ -1,11 +1,32 @@
 .container_content {
     width: 100%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../../../assets/pokeball_wallpaper.png");
+}
+.container_content-article {
+    width: 720px;
+    height: 100%;
+    box-shadow: 1px 1px 10px lightgray;
+    border-radius: 10px;
+    margin-top: .5rem;
+    background-color: #fff;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: .5rem;
+}
+
+.container_content-article > a {
+    margin-left: -38rem;
+    position: absolute;
+    text-decoration: none;
+    margin-top: 1rem;
+}
+.container_content > a:hover {
+    text-decoration: underline;
 }
 
 .content-cover > img {
@@ -13,12 +34,30 @@
     height: 350px;
     border: 5px solid lightgray;
     border-radius: 5px;
+    margin-top: 1rem;
 }
 
 .content-title {
     margin-top: 1rem;
+    width: 690px;
+    text-align: center;
 }
 
 .content-autor {
     margin-top: 1rem;
+    text-align: center;
+    font-size: 11pt;
+}
+
+.content-data {
+    text-align: center;
+    font-size: 10pt;
+}
+
+.content-article {
+    width: 685px;
+    text-indent: 1.5cm;
+    text-align: justify;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { dataFake } from '../../data/dataFake';
+import { dataFakeArticle } from 'src/app/data/dataFakeArticle';
 
 @Component({
   selector: 'app-content',
@@ -12,6 +13,7 @@ export class ContentComponent implements OnInit {
   contentTitle:string = "";
   autor:string = "";
   data:string = "";
+  article:string = "";
   private id:string | null = "";
 
   constructor(
@@ -22,15 +24,21 @@ export class ContentComponent implements OnInit {
     this.route.paramMap.subscribe( value => this.id = value.get("id"))
 
     this.setValuesToComponent(this.id)
+    this.toTopPage()
   }
 
   setValuesToComponent(id:string | null) {
     const result = dataFake.filter(article =>  article.id == id)[0]
-    console.log(result)
+    const article = dataFakeArticle.filter(article => article.id == id)[0]
 
     this.photoCover = result.photo;
     this.contentTitle = result.title;
     this.autor = result.autor;
     this.data = result.data;
+    this.article = article.article;
+  }
+
+  toTopPage() {
+    window.scroll(0, 0)
   }
 }

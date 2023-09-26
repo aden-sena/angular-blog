@@ -1,0 +1,11 @@
+<a [routerLink]="['']"><< Voltar</a>
+
+<div class="container_subscribe">
+    <app-subscribe-card *ngFor="let content of contents; index as i"
+    photo="{{ content.photo }}"
+    title="{{ content.title }}"
+    desc="{{ content.desc }}"
+    price="{{ content.price }}"
+    ></app-subscribe-card>
+</div>
+

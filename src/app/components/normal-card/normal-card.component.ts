@@ -16,6 +16,8 @@ export class NormalCardComponent implements OnInit {
   autor:string = "";
   @Input()
   data:string = "";
+  @Input()
+  Id:string = "";
 
   ngOnInit(): void {
   }
