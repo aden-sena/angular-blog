@@ -35,7 +35,7 @@ export const dataFake: {
     },
     {
         "id": "4",
-        "photo": "https://copag.com.br/uploads/wp-copag-pokemon/2018/07/SquirtleCapa.jpg",
+        "photo": "https://www.dexerto.com/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.com/wp-content/uploads/2021/05/12/Squirtle-Squad-Pokemon-Go.jpg",
         "title": "Esquadrão Squitle ataca novamente. Veja como se proteger.",
         "autor": "Alexa",
         "data": "26/09/2023"
